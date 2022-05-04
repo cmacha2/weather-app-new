@@ -1,0 +1,16 @@
+.form-control{
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.129); 
+    
+}
+
+.form-inline{
+    float:right !important;
+    text-align: left !important;
+}
+
+.btn{
+    color: whitesmoke;
+    border: 0.1px solid whitesmoke;
+}
+

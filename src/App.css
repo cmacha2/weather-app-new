@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html body {
+  background-image: url("./components/backgrou.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-bar{
+  position:fixed;
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.095); 
+  height: 4rem;
+  width: 100%;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  position: absolute;
+}
+
+.texto{
+  width: 100px;
+  position: relative;
+  top: 1rem;
+  float: left;
+}
+
